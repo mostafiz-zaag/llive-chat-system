@@ -106,6 +106,8 @@ export class NatsService implements OnModuleInit {
         return null;
       }
     } catch (error) {
+
+
       console.error(`❌ Error pulling from NATS queue:`, error);
       return null;
     }
